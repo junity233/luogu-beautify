@@ -1,0 +1,67 @@
+/*背景*/
+#app > div.main-container{
+	background-image:url("https://res.vsinger.com/images/c696535dcf3c691eb544d3680170de98.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*去除遮挡背景的元素的背景颜色*/
+#app > div.main-container > main{
+	background-color: rgba(239, 239, 239,0);
+}
+
+/*卡片的圆滑、阴影*/
+.card{
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 15px;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.lfe-body{
+	color:black;
+}
+/*侧边栏文字颜色*/
+.#app > nav > a{
+	color : white;
+}
+
+
+.border .row[data-v-24f898d2]:not(:last-child){
+	border-bottom: 1px solid rgba(234,234,234,0);
+}
+
+.ace-clouds {
+    background-color: rgba(255,255,255,0.2);
+    color: #000000;
+}
+
+
+pre[data-v-52f2d52f] {
+    border-radius: 3px;
+    background: rgba(251,251,251,0.7);
+}
+
+.am-panel {
+    background-color: rgba(255,255,255,0.9);
+}
+
+.lg-article, .lg-article-sub, .lg-article-nctrl {
+    background: rgba(255,255,255,.7);
+    border-radius: 15px;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.inner-card{
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    padding: 0.375em 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-nav[data-v-2dfcfd35] {
+    background-color: rgba(255,255,255,.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
