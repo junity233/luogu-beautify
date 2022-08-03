@@ -13,6 +13,7 @@
 ## 备注
 若出现加载css后无效果，可尝试在luogu.css的每个声明后添加``!important``。
 
+或者开启 ```User JavaScript and CSS``` 的 ```Highest CSS priority``` 选项
 e.g.
 ```css
 #app > div.main-container > main{
